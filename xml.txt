@@ -1,0 +1,17 @@
+<system name="student">
+	<channel name="alarmClockRings"/>
+	<channel name="changeAlarmHour"/>
+	<processus name="wakingUp">
+		<start>
+			<nextState name="sleep"/>
+		</start>
+		<state name="sleep"/>
+			<nextState name="wakeUp"/>
+			<input name="alarmClockRings"/>
+		</state>
+		<state name="wakeUp"/>
+			<nextState name="sleep"/>
+			<output name="changeAlarmHour"/>
+		</state>
+	</processus>
+</system>
