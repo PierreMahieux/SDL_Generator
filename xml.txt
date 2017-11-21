@@ -13,5 +13,6 @@
 			<nextState name="sleep"/>
 			<output name="changeAlarmHour"/>
 		</state>
+		<endState name="sleep"/>
 	</processus>
 </system>
