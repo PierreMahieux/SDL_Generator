@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-    name="sDL_Generator" nsURI="http://www.example.org/sDL_Generator"
-    nsPrefix="sDL_Generator"/>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="sDL_Generator" nsURI="http://www.example.org/sDL_Generator"
+    nsPrefix="sDL_Generator">
+  <eClassifiers xsi:type="ecore:EClass" name="System"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Process"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Channel"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Signal"/>
+</ecore:EPackage>
